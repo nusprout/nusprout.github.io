@@ -1,2 +1,1 @@
-# nusprout.github.io
-Sprout Website
+Sprout is cool!
