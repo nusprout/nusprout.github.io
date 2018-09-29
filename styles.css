@@ -1,4 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
+    background-color: white;
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
     font-family: "Lato";
 }
 
@@ -38,12 +42,17 @@ footer {
 
 
 
+<<<<<<< HEAD
 #intro {
+=======
+#section-1 {
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
   /**  background-color: #204d74; **/
     /**background: linear-gradient(45deg, #2080ad, #f85060);**/
     background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
 }
 
+<<<<<<< HEAD
 #about {
     background-color: black;
     color: white;
@@ -51,6 +60,16 @@ footer {
 }
 
 #banner {
+=======
+
+
+#section-2 {
+    background-color: white;
+    padding: 80px 80px;
+}
+
+#section-3 {
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
     background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
     text-align: center;
     padding: 40px 100px;
@@ -63,6 +82,7 @@ footer {
   border-color: black;
 }
 
+<<<<<<< HEAD
 #trip-details {
 
 }
@@ -78,6 +98,17 @@ footer {
 #site-visits-2017 {
   background-color: black;
   text-align: center;
+=======
+#section-4 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 40px 100px;
+    color: black;
+}
+
+#section-5 {
+
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
 }
 
 .tab {
@@ -99,6 +130,7 @@ footer {
   margin: auto;
 }
 
+<<<<<<< HEAD
 #summary{
   font-weight: 800;
   font-size: 32px;
@@ -113,6 +145,11 @@ footer {
   color: white;
   font-size: 20px;
 }
+=======
+#title {
+  padding: 20px;
+}
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
 .text-field {
   float: left;
   width: 48%;
@@ -233,7 +270,11 @@ a:hover {
 }
 
 .wrapper {
+<<<<<<< HEAD
   padding: 80px 60px;
+=======
+  padding: 30px 60px;
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
 }
 
 .center-wrapper {
@@ -241,6 +282,7 @@ a:hover {
   padding: 60px 60px;
 }
 
+<<<<<<< HEAD
 .center {
   text-align: center;
 }
@@ -256,6 +298,8 @@ a:hover {
 }
 
 
+=======
+>>>>>>> 8087efaf0badb48d822f93e288feaae90ce75641
 
 input[type=text], textarea {
     padding: 12px; /* Some padding */
