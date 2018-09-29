@@ -1,128 +1,190 @@
 <html>
-<head>
-  <title>EPIC Sprout</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
-  <script src="script.js"></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <head>
+    <title>EPIC Sprout</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-<body>
-  <div id = "section-1">
-    <div class="center-wrapper">
-      <img src="images/sprout.png" alt="sprout-logo" height="224" width="200">
-      <div id="title"><h1>EPIC Sprout</h1></div>
-      <button type="button" class="btn btn-primary" onclick="window.open('https://medium.com/epicnorthwestern/takeaways-from-sprout-2017-aadeffdcdad8')">Apply Now</button>
-    </div>
-  </div>
+  <body>
+    <div id = "intro">
+      <div class="center-wrapper">
+        <img src="images/sprout.png" alt="sprout-logo" height="224" width="200">
+        <div id="title">
+          <h1>EPIC Sprout</h1>
+          <div id="subtitle">Northwestern University -> Silicon Valley</div>
+        </div>
 
-  <div id="section-2">
-    <div class = "row">
-      <div class = "column">
-        <h2>Overview</h2>
-        <p>Sprout is Northwestern’s annual Winter Break trip that brings 25 NU students to Silicon Valley for a week of awesome site visits as well as conversations and events with incredible alumni. The trip, a week-long crash-course in entrepreneurship, offers a glimpse into life at innovative and entrepreneurial ventures like Facebook, Indiegogo, or 500 Startups, and alters the ideas and mindset of students who attend the trip for the rest of their lives.</p>
-      </div>
-      <div class = "column">
-        <h2>The Experience</h2>
-        <p>Northwestern students dive into the heart and soul of Silicon Valley, meeting and understanding the minds of some of the most talented people in their respective industries. Between the site visits, dinners and Q&As with alums (did we mention utilizing Northwestern’s brand new downtown SF campus), real-world challenges and exploring The Bay, this immersive trip will bring a wisdom and excitement to students that can’t be found anywhere else.</p>
+        <!--<button type="button" class="btn btn-primary" onclick="window.open('https://medium.com/epicnorthwestern/takeaways-from-sprout-2017-aadeffdcdad8')">Apply Now</button>-->
       </div>
     </div>
-  </div>
+    <div id="summary" class="wrapper">
+      Sprout is a week-long trip to the Silicon Valley for Northwestern students to learn from and have in-depth conversations with co-founders of startups and VCs.
+    </div>
 
-  <div id="section-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm" id="border-right">
-          <h3>1</h3>
-          Week
-        </div>
-        <div class="col-sm" id="border-right">
-          <div class="highlight">
-            <h3>25</h3>
-            Northwestern Students
-          </div>
-        </div>
-        <div class="col-sm" id="border-right">
-          <div class="highlight">
-            <h3>15</h3>
-            Legendary Leaders
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="highlight">
-            <h3>&infin;</h3>
-            Memories & Experiences
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section-4">
-    <div class="tab-bar">
-      <button class="btn tablink btn-primary" id="tablink1" onclick="openTab('tablink1', 'before')">Before the Trip</button>
-      <button class="btn tablink btn-outline-primary" id="tablink2" onclick="openTab('tablink2', 'during')">During the Trip</button>
-      <button class="btn tablink btn-outline-primary" id="tablink3" onclick="openTab('tablink3', 'after')">After the Trip</button>
-    </div>
-    <div class="tab" id="before">
+    <div id="about">
       <div class = "row">
         <div class = "column">
-          <p>We like to say that Sprout empowers students with an entrepreneurial spirit and a creative mindset to learn first-hand about entrepreneurship, innovation, problem-solving, and more from legends of The Valley. Applications for the trip open when fall quarter begins in September. The Sprout team will host info sessions around campus to raise awareness and excitement about the program.</p>
-          <p>We ask the participants to join us for several events beforehand to meet others attending the trip and for some training to ensure we all go in with great background knowledge of the companies and speakers we are visiting, and are prepared with insightful questions.</p>
+          <h2>Overview</h2>
+          <p>Sprout is Northwestern’s annual Winter Break trip that brings 25 NU students to Silicon Valley for a week of awesome site visits as well as conversations and events with incredible alumni. The trip, a week-long crash-course in entrepreneurship, offers a glimpse into life at innovative and entrepreneurial ventures like Facebook, Indiegogo, or 500 Startups, and alters the ideas and mindset of students who attend the trip for the rest of their lives.</p>
         </div>
-        <div class = "column center-wrapper">
-          <img src="images/sprout-at-google.jpeg" alt="google" height="300" width="450">
-        </div>
-      </div>
-    </div>
-
-    <div class="tab" id="during" style="display:none">
-      <div class = "row">
         <div class = "column">
-          <p>Participants will spend a week speaking with some of the most influential leaders of Silicon Valley through site visits, group dinners, team projects, and coffee chats. Students will visit and meet the founders of vanguard startups, high-level innovators at large tech mammoths, and incredibly successful VC firms.</p>
-          <p>Students will have the chance to dive into the bright minds of these leaders, learning how their stories and experiences can aid them in their own dreams and goals. Participants will also learn from one another, form lasting friendships and bonds, and gain new mentors and insight.</p>
-        </div>
-        <div class = "column center-wrapper">
-          <img src="images/sprout-at-google.jpeg" alt="google" height="300" width="450">
+          <h2>The Experience</h2>
+          <p>Northwestern students dive into the heart and soul of Silicon Valley, meeting and understanding the minds of some of the most talented people in their respective industries. Between the site visits, dinners and Q&As with alums (did we mention utilizing Northwestern’s brand new downtown SF campus), real-world challenges and exploring The Bay, this immersive trip will bring a wisdom and excitement to students that can’t be found anywhere else.</p>
         </div>
       </div>
     </div>
 
-    <div class="tab" id="after" style="display:none">
-      <div class = "row">
-        <div class = "column">
-          <p>Sprout participants will continue to receive mentorship and spend time with one another through occasional events and reunions. The wisdom and apprehension gained during the trip always helps students follow through with their personal goals, job searches, and Northwestern journeys.</p>
+
+
+    <div id="trip-details">
+      <div class="tab-bar">
+        <button class="btn tablink btn-primary" id="tablink1" onclick="openTab('tablink1', 'before')">Before the Trip</button>
+        <button class="btn tablink btn-outline-primary" id="tablink2" onclick="openTab('tablink2', 'during')">During the Trip</button>
+        <button class="btn tablink btn-outline-primary" id="tablink3" onclick="openTab('tablink3', 'after')">After the Trip</button>
+      </div>
+      <div class="tab" id="before">
+        <div class = "row">
+          <div class = "column">
+            <p>We like to say that Sprout empowers students with an entrepreneurial spirit and a creative mindset to learn first-hand about entrepreneurship, innovation, problem-solving, and more from legends of The Valley. Applications for the trip open when fall quarter begins in September. The Sprout team will host info sessions around campus to raise awareness and excitement about the program.</p>
+            <p>We ask the participants to join us for several events beforehand to meet others attending the trip and for some training to ensure we all go in with great background knowledge of the companies and speakers we are visiting, and are prepared with insightful questions.</p>
+          </div>
+          <div class = "column center-wrapper">
+            <img src="images/sprout-at-google.jpeg" alt="google" height="300" width="450">
+          </div>
         </div>
-        <div class = "column center-wrapper">
-          <img src="images/sprout-at-google.jpeg" alt="google" height="300" width="450">
+      </div>
+
+      <div class="tab" id="during" style="display:none">
+        <div class = "row">
+          <div class = "column">
+            <p>Participants will spend a week speaking with some of the most influential leaders of Silicon Valley through site visits, group dinners, team projects, and coffee chats. Students will visit and meet the founders of vanguard startups, high-level innovators at large tech mammoths, and incredibly successful VC firms.</p>
+            <p>Students will have the chance to dive into the bright minds of these leaders, learning how their stories and experiences can aid them in their own dreams and goals. Participants will also learn from one another, form lasting friendships and bonds, and gain new mentors and insight.</p>
+          </div>
+          <div class = "column center-wrapper">
+            <img src="images/nu-sf.jpeg" alt="google" height="300" width="450">
+          </div>
+        </div>
+      </div>
+
+      <div class="tab" id="after" style="display:none">
+        <div class = "row">
+          <div class = "column">
+            <p>Sprout participants will continue to receive mentorship and spend time with one another through occasional events and reunions. The wisdom and apprehension gained during the trip always helps students follow through with their personal goals, job searches, and Northwestern journeys.</p>
+          </div>
+          <div class = "column center-wrapper">
+            <img src="images/polaroids.jpg" alt="google" height="300" width="450">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section-5 wrapper">
-    <form action="https://formspree.io/nusprout@gmail.com" method="POST">
-      <h2>Contact Us</h2>
-      <input type="text" id="name" name="name" placeholder="Name">
-      <input type="text" id="email" name="email" placeholder="Email">
-      <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
-      <input type="submit" value="Submit" value="Send">
-    </form>
-  </div>
-</body>
+    <div id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm" id="border-right">
+            <h3>1</h3>
+            Week
+          </div>
+          <div class="col-sm" id="border-right">
+            <div class="highlight">
+              <h3>25</h3>
+              Northwestern Students
+            </div>
+          </div>
+          <div class="col-sm" id="border-right">
+            <div class="highlight">
+              <h3>15</h3>
+              Legendary Leaders
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="highlight">
+              <h3>&infin;</h3>
+              Memories & Experiences
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="site-visits-2018" class="wrapper">
+      <h2>2018 Site Visits</h2>
+      <div style="color: grey">Tentative and more to come!</div>
+
+        <div class="site-visit-row">
+          <div class="site-picture">
+            <img src="images/twitter-logo.png" alt="twitter" height="200" width="200">
+          </div>
+          <div class="site-picture">
+            <img src="images/spin-logo.png" alt="spin" height="200" width="200">
+          </div>
+        </div>
+        <div class="site-visit-row">
+          <div class="site-picture">
+              <img src="images/y-logo.png" alt="y-combinator" height="200" width="200">
+          </div>
+          <div class="site-picture">
+            <img src="images/dropbox-logo.png" alt="dropbox" height="200" width="200">
+          </div>
+        </div>
+      </div>
 
 
 
-<footer>
-  <div class="center-wrapper copyright">
-    Made with love at <a href="https://www.northwestern.edu">Northwestern</a> <a href="https://www.epicnorthwestern.com">EPIC</a>!
-    <br><br>
-    <a href="https://www.facebook.com/nuisepic/" class="fa fa-facebook" target="_blank"></a>
-    <a href="https://www.instagram.com/epicatnu/?hl=en" class="fa fa-instagram" target="_blank"></a>
-    <a href="mailto:nusprout@gmail.com" class="fa fa-envelope" target="_blank"></a>
-    <a href="https://medium.com/epicnorthwestern/takeaways-from-sprout-2017-aadeffdcdad8" class="fa fa-medium" target="_blank"></a>
-  </div>
-</footer>
+
+        <div id="site-visits-2017" class="wrapper">
+          <h2>2017 Site Visits</h2>
+          <div style="color: white">Our vists from last year.</div>
+
+            <div class="site-visit-row">
+              <div class="site-picture">
+                <img src="images/gsv-logo.png" alt="twitter" height="200" width="200">
+              </div>
+              <div class="site-picture">
+                <img src="images/indiegogo-logo.png" alt="spin" height="200" width="200">
+              </div>
+              <div class="site-picture">
+                <img src="images/particle-logo.png" alt="spin" height="200" width="200">
+              </div>
+            </div>
+            <div class="site-visit-row">
+              <div class="site-picture">
+                  <img src="images/workspan-logo.png" alt="y-combinator" height="200" width="200">
+              </div>
+              <div class="site-picture">
+                <img src="images/google-logo.png" alt="dropbox" height="200" width="200">
+              </div>
+            </div>
+                <div style="color: white">Special thanks to Li Jiang, Suzee Han, Jessica Tan and Ahren Alexander for helping at the Startup Challenge.</div>
+          </div>
+
+
+    <div id="contact" class="wrapper">
+      <form action="https://formspree.io/nusprout@gmail.com" method="POST">
+        <h2>Contact Us</h2>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="text" id="email" name="email" placeholder="Email">
+        <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+        <input type="submit" value="Submit" value="Send">
+      </form>
+    </div>
+  </body>
+
+
+
+  <footer>
+    <div class="center-wrapper copyright">
+      Made with love at <a style="color: red" href="https://www.northwestern.edu">Northwestern</a> <a style="color: red" href="https://epicnorthwestern.com/">EPIC</a>!
+      <br><br>
+      <a href="https://www.facebook.com/nuisepic/" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/epicatnu/?hl=en" class="fa fa-instagram" target="_blank"></a>
+      <a href="mailto:nusprout@gmail.com" class="fa fa-envelope" target="_blank"></a>
+      <a href="https://medium.com/epicnorthwestern/takeaways-from-sprout-2017-aadeffdcdad8" class="fa fa-medium" target="_blank"></a>
+    </div>
+  </footer>
 </html>
