@@ -23,7 +23,7 @@ h2 {
   height: 40px;
   vertical-align:middle;
   font-size: 24px;
-  color: rgb(41, 160, 158);
+  color: rgb(0, 170, 71);
 }
 
 h3 {
@@ -41,7 +41,12 @@ footer {
 #intro {
   /**  background-color: #204d74; **/
     /**background: linear-gradient(45deg, #2080ad, #f85060);**/
-    background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
+    /* background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255)); */
+    /* background: url("images/gordon-mak-522733-unsplash.jpg"); */
+    background: url("images/rob-bye-678640-unsplash.jpg");
+    background-size: cover;
+    background-position: center; 
+
 }
 
 #about {
@@ -51,7 +56,7 @@ footer {
 }
 
 #banner {
-    background: linear-gradient(to top right, rgb(41, 160, 158), rgb(221, 238, 255));
+    background: linear-gradient(to top right, rgb(0, 170, 71), rgb(221, 238, 255));
     text-align: center;
     padding: 40px 100px;
     color: black;
@@ -121,6 +126,9 @@ footer {
 
 .btn {
   padding: 10px;
+  background-color: rgb(0, 170, 71);
+  border-color: rgb(0, 170, 71);
+  color: white;
 }
 
 #apply-button {
@@ -277,7 +285,7 @@ input[type=text], textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: rgb(41, 160, 158);
+    background-color: rgb(0, 170, 71);
     color: white;
     padding: 12px 20px;
     border: none;
